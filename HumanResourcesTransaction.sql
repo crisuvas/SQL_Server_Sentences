@@ -10,5 +10,6 @@ BEGIN TRANSACTION
 		END
 	ELSE
 		BEGIN
+			COMMIT
 			PRINT('all is right')
 		END
